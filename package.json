@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-console",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,4 +1,5 @@
 const print = require('./functions/print');
+const sum = require('./functions/sum');
 const prompt = require('prompt-sync')();
 
 const solve = () => {

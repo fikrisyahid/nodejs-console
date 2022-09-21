@@ -1,5 +1,5 @@
-const print = (str) => {
-  process.stdout.write(str);
+const print = (input) => {
+  process.stdout.write(input);
 };
 
 const solve = () => {

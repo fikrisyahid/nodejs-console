@@ -1,4 +1,4 @@
-export const print = (input: any): any => {
+const print = (input: any): any => {
   if (typeof input === "object") {
     console.log(input);
     return;
@@ -6,4 +6,6 @@ export const print = (input: any): any => {
   process.stdout.write(`${input}`);
 };
 
-export const println = (input?: any) => console.log(input || "");
+const println = (input?: any) => console.log(input || "");
+
+export { print, println };
